@@ -70,57 +70,36 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="calcular.html">Calcular Producto</a>
                                 <a class="dropdown-item" href="ConversionUnIf.html">Conversion de Unidades de informacion</a>
-
                             </ul>
-                      
                     </li>
-
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success" type="button">Search</button>
                 </form>
             </div>
         </div>
     </nav>
-
-    
     <div id="Contenedor">
         <section>
             <article>
                 <div class="container" style="align-content: center; width: 100%;">
-                    <form style="align-content: center; width: 50%; margin: 10% auto;">
-
-                        
-
+                    <form style="align-content: center; width: 50%; margin: 10% auto;" action="php/Consultar.php" role="form" method="POST">
                         <div class="input-group mb-3">
-                            
                             <label class="input-group-text" for="inputGroupSelect01" style="width: 40%;">Codigo Producto</label>
-                            <input type="text" id="CodigoP"class="form-control">
+                            <input type="text" name="Codigo"class="form-control">
                         </div>
-
-                        
-                            <div class="d-grid gap-2"><!--Botones-->
-                                
-                                <button type="button" class="btn btn-primary" id="BorrarP"style="width:40%;margin: 0 auto;">Buscar Por Codigo</button>
-                            </div> <br>
-
-                           
-                        
-
-                            
-                        
-                        
+                        <div class="d-grid gap-2"><!--Botones-->
+                                <button type="submit" class="btn btn-primary" name="submit" style="width:40%;margin: 0 auto;">Buscar Por Codigo</button>
+                        </div> 
+                        <br>   
                     </form>
-
                 </div>
             </article>
         </section>
-        <aside>
-            
+        <aside>    
         </aside>
     </div>
-
     <footer>
         
     </footer>
