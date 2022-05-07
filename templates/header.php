@@ -1,5 +1,4 @@
-
-
+<?php ob_start(); ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -70,7 +69,7 @@
 
 <nav class="navbar navbar-expand-lg bg-dark text-white">
   <div class="container-fluid">
-    <a href="#" class="nav-link">
+    <a href="index.php" class="nav-link">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="font-size: 3rem; color: #0D6EFD;" class="bi bi-house-fill" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
         <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
@@ -93,6 +92,8 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="php/Creacion.php">Crear base de datos</a>
               <a class="dropdown-item" href="php/CreacionTabla.php">Crear Tabla</a>
+              <a class="dropdown-item" href="php/listadoProductos.php">Crear Reporte PDF</a>
+              <a class="dropdown-item" href="p">Crear BackUp</a>
           </div>
         </li>
 
@@ -112,7 +113,8 @@
           Utilidades
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="calcular.html">Calcular producto</a>
+          <a class="dropdown-item" href="calcular.php">Calcular producto</a>
+          <a class="dropdown-item" href="ConversionUnIf.html">Calcular equivalencia</a>
           <a class="dropdown-item" href="ConversionUnIf.html">Calcular equivalencia</a>
          
         </div>
@@ -126,32 +128,3 @@
 
 </nav>
     
-    <div id="Contenedor">
-        <section>
-            <article style=" width: 80%;margin: 10% auto;"> 
-             <!--<h1 style="text-align: center; "><pre><br>
-               Trabajo Grupal <br>
-              Fase 3 <br>
-              ALEXIS VILLAMIZAR GOMEZ  CC:88254888 <br>
-              ELWER GONZALES ROBAYO CC: 1090364355 <br>
-              JOSE MAURICIOSAAVEDRA CC: 88268989 <br>
-              WILLIAM YESID OVALLE CANO CC:1063621270 <br>
-              </pre></h1> >-->
-            </article>
-        </section>
-        <aside>
-            
-        </aside>
-    </div>
-
-    <footer>
-        
-    </footer>
-        
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>     
-    
-
-        </body>
-
-</html>
