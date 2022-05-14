@@ -49,7 +49,7 @@ if (mysqli_query($conn, $sql2)) {
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Eliminar dato</h4>
-          <button class="close" onclick="location.href='../eliminar.html'">&times;</button>
+          <button class="close" onclick="location.href='../eliminar.php'">&times;</button>
         </div>
         <!-- Modal body -->
         <div class="modal-body">
@@ -58,7 +58,7 @@ if (mysqli_query($conn, $sql2)) {
         
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button class="btn btn-danger" onclick="location.href='../eliminar.html'">Cerrar</button>
+          <button class="btn btn-danger" onclick="location.href='../eliminar.php'">Cerrar</button>
         </div>
         
       </div>
@@ -77,7 +77,7 @@ if (mysqli_query($conn, $sql2)) {
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Error Al eliminar</h4>
-          <button class="close" onclick="location.href='../eliminar.html'">&times;</button>
+          <button class="close" onclick="location.href='../eliminar.php'">&times;</button>
         </div>
         
         <!-- Modal body -->
@@ -92,7 +92,7 @@ if (mysqli_query($conn, $sql2)) {
         
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button class="btn btn-danger" onclick="location.href='../eliminar.html'">Cerrar</button>
+          <button class="btn btn-danger" onclick="location.href='../eliminar.php'">Cerrar</button>
         </div>
         
       </div>

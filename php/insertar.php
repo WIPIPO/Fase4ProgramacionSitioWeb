@@ -37,13 +37,13 @@
 
             <div class="modal-header">
                 <h4 class="modal-title">Registro exitoso</h4>
-                <button type="button" class="close"onclick="location.href='../agregar.html'">&times;</button>
+                <button type="button" class="close"onclick="location.href='../agregar.php'">&times;</button>
             </div>
             <div class="modal-body">
                 <p>El registro se ha realizado con éxito</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary"onclick="location.href='../agregar.html'">Cerrar</button>
+                <button type="button" class="btn btn-primary"onclick="location.href='../agregar.php'">Cerrar</button>
                 
             </div>
         </div>
@@ -57,7 +57,7 @@
 
             <div class="modal-header">
                 <h4 class="modal-title">Error</h4>
-                <button type="button" class="close"onclick="location.href='../agregar.html'">&times;</button>
+                <button type="button" class="close"onclick="location.href='../agregar.php'">&times;</button>
             </div>
 
             <div class="modal-body">
@@ -68,7 +68,7 @@
             </div>
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary"onclick="location.href='../agregar.html'">Cerrar</button>
+                <button type="button" class="btn btn-primary"onclick="location.href='../agregar.php'">Cerrar</button>
                 
             </div>
         </div>

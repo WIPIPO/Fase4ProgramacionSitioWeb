@@ -49,7 +49,7 @@ $sql = "CREATE TABLE Productos (
                 <!-- Modal Header -->
                 <div class="modal-header">
                   <h4 class="modal-title">Creación de la tabla </h4>
-                  <button class="close" onclick="location.href='../index.html'">&times;</button>
+                  <button class="close" onclick="location.href='../index.php'">&times;</button>
                 </div>
                 <!-- Modal body -->
                 <div class="modal-body">
@@ -57,7 +57,7 @@ $sql = "CREATE TABLE Productos (
                 </div>
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                  <button class="btn btn-danger" onclick="location.href='../index.html'">Cerrar</button>
+                  <button class="btn btn-danger" onclick="location.href='../index.php'">Cerrar</button>
                 </div>
                 
               </div>
